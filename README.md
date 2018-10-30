@@ -1,7 +1,7 @@
 ## Retrieve keys from kops
 ```
-aws s3 sync s3://kops-state-b429b/kubernetes.newtech.academy/pki/private/ca/ ca-key
-aws s3 sync s3://kops-state-b429b/kubernetes.newtech.academy/pki/issued/ca/ ca-crt
+aws s3 sync s3://kops-state-b429b/test.aheadlabs.io/pki/private/ca/ ca-key
+aws s3 sync s3://kops-state-b429b/test.aheadlabs.io/pki/issued/ca/ ca-crt
 mv ca-key/*.key ca.key
 mv ca-crt/*.crt ca.crt
 ```
